@@ -47,42 +47,68 @@ header {
 }
 
 h2 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 h4 {
-    margin-top: 16px;
-    margin-bottom: 10px;
+  margin-top: 16px;
+  margin-bottom: 10px;
 }
 
 .tea-of-the-month h2 {
-    margin-top: 100px;
+  margin-top: 80px;
 }
 
 .tea-of-the-month h4 {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .flex img {
-    width: 300px;
-    height: 200px;
-    margin-bottom: 0px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 0px;
 }
 
-flex article h4 {
-    margin-top: 10px;
-    margin-bottom: 20px;
+.flex article h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .flex {
-    margin-top: 20px;
-    display: inline-flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    max-width: 1000px;
+  margin-top: 20px;
+  display: inline-flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: 1000px;
+  /* background-color: blue; */
 }
 
 .flex article {
-    margin: 15px;
+  margin: 15px;
+}
+
+.locations .flex {
+  max-width: 1200px;
+  align-items: flex-start;
+}
+
+.locations .flex article {
+  margin: 0 20px;
+  background-color: black;
+  opacity: 1;
+  min-width: 300px;
+}
+
+.locations h2 {
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.locations {
+  display: inline-block;
+  margin-top: 80px;
+  height: 575px;
+  width: 1200px;
+  background-image: url(resources/img-locations-background.webp);
 }
