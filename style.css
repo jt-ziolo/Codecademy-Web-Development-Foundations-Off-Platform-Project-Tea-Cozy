@@ -112,3 +112,13 @@ h4 {
   width: 1200px;
   background-image: url(resources/img-locations-background.webp);
 }
+
+.contact-info {
+  height: 200px;
+}
+
+footer {
+  display: block;
+  margin-left: 20px;
+  text-align: left;
+}
