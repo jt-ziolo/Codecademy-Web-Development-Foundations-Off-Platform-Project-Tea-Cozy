@@ -32,3 +32,26 @@ header {
   margin: 9px auto 10px 10px;
   float: left;
 }
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("resources/img-mission-background.webp");
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission article {
+  background-color: black;
+}
+
+h2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h4 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
