@@ -1,8 +1,34 @@
 :root {
-  font-family: Helvetica;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.header-nav {
+  float: right;
+  height: 68px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-nav a {
+  margin-right: 10px;
+  margin-left: 20px;
+  text-decoration: underline;
+  color: white;
+}
+
+.logo {
+  height: 50px;
+  margin: 9px auto 10px 10px;
+  float: left;
 }
