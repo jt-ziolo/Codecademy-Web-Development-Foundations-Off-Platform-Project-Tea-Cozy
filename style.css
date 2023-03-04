@@ -33,7 +33,7 @@ header {
   float: left;
 }
 
-.mission {
+#mission {
   height: 700px;
   width: 1200px;
   background-image: url("resources/img-mission-background.webp");
@@ -42,7 +42,7 @@ header {
   justify-content: center;
 }
 
-.mission article {
+#mission article {
   background-color: black;
 }
 
@@ -56,11 +56,11 @@ h4 {
   margin-bottom: 10px;
 }
 
-.tea-of-the-month h2 {
+#tea-of-the-month h2 {
   margin-top: 80px;
 }
 
-.tea-of-the-month h4 {
+#tea-of-the-month h4 {
   margin-top: 24px;
 }
 
@@ -81,31 +81,30 @@ h4 {
   justify-content: center;
   flex-flow: row wrap;
   max-width: 1000px;
-  /* background-color: blue; */
 }
 
 .flex article {
   margin: 15px;
 }
 
-.locations .flex {
+#locations .flex {
   max-width: 1200px;
   align-items: flex-start;
 }
 
-.locations .flex article {
+#locations .flex article {
   margin: 0 20px;
   background-color: black;
   opacity: 1;
   min-width: 300px;
 }
 
-.locations h2 {
+#locations h2 {
   margin-top: 100px;
   margin-bottom: 0px;
 }
 
-.locations {
+#locations {
   display: inline-block;
   margin-top: 80px;
   height: 575px;
