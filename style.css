@@ -55,3 +55,34 @@ h4 {
     margin-top: 16px;
     margin-bottom: 10px;
 }
+
+.tea-of-the-month h2 {
+    margin-top: 100px;
+}
+
+.tea-of-the-month h4 {
+    margin-top: 24px;
+}
+
+.flex img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+flex article h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    max-width: 1000px;
+}
+
+.flex article {
+    margin: 15px;
+}
